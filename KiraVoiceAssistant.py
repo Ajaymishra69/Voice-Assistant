@@ -117,16 +117,5 @@ if __name__=="__main__":
             speak("I was created as a Minor project by Master Ajay ")
  
  
-       '''elif "what is" in query or "who is" in query:
-             
-            # Use the same API key
-            # that we have generated earlier
-            client = wolframalpha.Client("API_ID")
-            res = client.query(query)
-             
-            try:
-                print (next(res.results).text)
-                speak (next(res.results).text)
-            except StopIteration:
-                print ("No results") ''' 
+       
         
